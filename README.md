@@ -5,8 +5,8 @@
 -   [简要版](#简要版)
 -   [详细内容](#详细内容)
     1.   [（基于虚拟机的）Ceph集群部署](#1.(基于虚拟机)的ceph集群部署)
-    2.   [openATTIC服务安装与配置](#2. openattic服务安装与配置)
-    3.   [openATTIC开发环境搭建](#3. openattic开发环境搭建)
+    2.   [openATTIC服务安装与配置](#2.openattic服务安装与配置)
+    3.   [openATTIC开发环境搭建](#3.openattic开发环境搭建)
 -   [理解openATTIC架构](#理解openattic架构)
 -   [参考](#参考)
 
@@ -58,7 +58,7 @@
 
 可参考SES5部署手册。
 
-### 2. openATTIC服务安装与配置
+### 2.openATTIC服务安装与配置
 
 - 确保本机能与Ceph集群建立通信，配置与搭建集群时对各节点的操作类似，包括修改hostname,ntp服务，关闭防火墙等
 - 操作系统： openSUSE Leap 42.3
@@ -194,7 +194,7 @@ salt-run ui_rgw.credentials
 oaconfig changepassword openattic
 ```
 
-### 3. openATTIC开发环境搭建
+### 3.openATTIC开发环境搭建
 
 #### 3.1 配置git，创建本地代码仓库
 
@@ -317,7 +317,7 @@ oaconfig start  ## start openATTIC service
     - [设置SSH key](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html#SetupanSSHkey-ssh2) 
 
 
-[openATTIC主界面]: /home/kristol/Documents/docs/openATTIC/openATTIC_Dashboard.png "openATTIC UI - Dashboard"
-[添加机器连接]: /home/kristol/Documents/docs/openATTIC/virtual_machine_manager/add_connection.png
-[创建虚拟机]: /home/kristol/Documents/docs/openATTIC/virtual_machine_manager/create_new_vm.png
-[定位安装介质]: /home/kristol/Documents/docs/openATTIC/virtual_machine_manager/add_ios.png
+[openATTIC主界面]: ./screenshots/openATTIC_Dashboard.png "openATTIC UI - Dashboard"
+[添加机器连接]: ./screenshots/virtual_machine_manager/add_connection.png
+[创建虚拟机]: ./screenshots/virtual_machine_manager/create_new_vm.png
+[定位安装介质]: ./screenshots/virtual_machine_manager/add_ios.png
