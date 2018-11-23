@@ -318,6 +318,6 @@ oaconfig start  ## start openATTIC service
 
 
 [openATTIC主界面]: ./screenshots/openATTIC_Dashboard.png "openATTIC UI - Dashboard"
-[添加机器连接]: ./screenshots/virtual_machine_manager/add_connection.png
-[创建虚拟机]: ./screenshots/virtual_machine_manager/create_new_vm.png
-[定位安装介质]: ./screenshots/virtual_machine_manager/add_ios.png
+[添加机器连接]: ./screenshots/add_connection.png
+[创建虚拟机]: ./screenshots/create_new_vm.png
+[定位安装介质]: ./screenshots/add_ios.png
