@@ -4,9 +4,9 @@
 
 -   [简要版](#简要版)
 -   [详细内容](#详细内容)
-    1.   [（基于虚拟机的）Ceph集群部署](#1.（基于虚拟机）的ceph集群部署)
-    2.   [openATTIC服务安装与配置](#2.\ openattic服务安装与配置)
-    3.   [openATTIC开发环境搭建](#3.\ openattic开发环境搭建)
+    1.   [（基于虚拟机的）Ceph集群部署](#1.(基于虚拟机)的ceph集群部署)
+    2.   [openATTIC服务安装与配置](#2. openattic服务安装与配置)
+    3.   [openATTIC开发环境搭建](#3. openattic开发环境搭建)
 -   [理解openATTIC架构](#理解openattic架构)
 -   [参考](#参考)
 
@@ -23,10 +23,9 @@
 - 修改/etc/sysconfig/openattic中的OADIR变量，使其指向本地克隆代码路径
 - 启动相关web ui和oaconfig服务，即完成所有操作。
 
-
 ## 详细内容
 
-### 1.（基于虚拟机的）Ceph集群部署
+### 1.(基于虚拟机的)Ceph集群部署
 
 #### 1.1 利用virtual-machine-manager创建虚拟机
 
